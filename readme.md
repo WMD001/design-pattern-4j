@@ -3,9 +3,9 @@ Java版设计模式，示例代码。
 - 创建型模式
   - [x] [工厂方法](https://wmd001.top/blog/20240607/)
   - [x] [抽象工厂](https://wmd001.top/blog/20240701/)
-  - [ ] 单例
   - [x] [建造者](https://wmd001.top/blog/20240804/)
   - [x] [原型](https://wmd001.top/blog/20240805/)
+  - [x] [单例](https://wmd001.top/blog/20240806/)
 - 结构型模式
   - [ ] 适配器
   - [ ] 桥接
