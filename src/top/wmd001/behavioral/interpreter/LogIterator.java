@@ -1,4 +1,4 @@
-package top.wmd001.behavioral.iterator;
+package top.wmd001.behavioral.interpreter;
 
 import java.util.ArrayList;
 import java.util.List;

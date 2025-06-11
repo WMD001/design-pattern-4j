@@ -1,15 +1,16 @@
 package top.wmd001.behavioral.iterator;
 
-import java.time.LocalDate;
-import java.time.LocalTime;
+import java.util.Iterator;
 
 public class Client {
 
     public static void main(String[] args) {
-//        LogIterator.log("Hello {}! I am {}", "World", "wmd001");
-        LogIterator.log("[{}] start {} at {}...", LocalTime.now().withNano(0), "engine", LocalDate.now());
-
-
+        Integer[] array = new Integer[]{1, 2, 3, 4, 5};
+        ReverseArrayCollection<Integer> collection = new ReverseArrayCollection<>(array);
+        Iterator<Integer> iterator = collection.iterator();
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next());
+        }
     }
 
 }
